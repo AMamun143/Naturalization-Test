@@ -1,0 +1,106 @@
+  @font-face {
+        font-family: "BankGothicBold";
+        src: url("BankGothicBold.ttf");
+  }
+  @font-face {
+        font-family: "DS-DIGI";
+        src: url("DS-DIGI.TTF");
+  }
+  /*h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }*/
+  body {
+    background: url("../images/imi.png") no-repeat center center fixed;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+    font-family: "BankGothicBold";
+
+  }
+  button {
+    display: block;
+    background-color: yellow;
+    color: black;
+    width: 200px;
+    margin: 10px auto 10px auto;
+
+  }
+  button:hover {
+      background-color: black;
+      color: yellow;
+  }
+  .answer-button {
+
+  }
+  #clock {
+      font-family: "DS-DIGI";
+      font-size: 75px;
+      margin: 25px;
+  }
+  #startGameWindow {
+    width: 400px;
+  }
+  #start-button {
+  border-color: #da0012;
+  background-color: rgba(0,0,0,0.77);
+  color: #da0012;
+  float: left;
+  }
+  #start-button:hover {
+    background-color: rgba(218,0,18,0.77);
+    color:black;
+  }
+  #launch {
+    width: 200px;
+      height: 45px;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .modal-header {
+    background-color: black;
+    font-size: 14px;
+    border: none;
+  }
+  .modal-title {
+    text-align: justify;
+  }
+  .modal-body {
+    color:yellow;
+    text-align: center;
+    background-color: black;
+    border: none;
+  }
+
+  .modal-footer {
+    text-align: center;
+    background-color: black;
+    border: none;
+  }
+  #closeButton {
+    height: 20px;
+    width: 20px;
+    color: red;
+  }
+  #gameBody {
+    background-color: black;
+    text-align: center;
+  }
+  #gameContainer {
+    margin-top: 100px;
+  }
